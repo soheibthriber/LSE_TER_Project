@@ -1,0 +1,481 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<event_table>
+ <mono_core_processor id="id_2">
+  <object_type>PROCESSOR_OBJECT_TYPE</object_type>
+  <name>cpu1</name>
+  <processor_type>MONOCORE_TYPE</processor_type>
+  <migration_type>NO_MIGRATION_TYPE</migration_type>
+  <core ref="id_1">
+  </core>
+ </mono_core_processor>
+ <scheduling_result>
+  <has_error>FALSE</has_error>
+  <result>
+   <time_unit>0 </time_unit>
+   <time_unit_event>
+    <type_of_event>TASK_ACTIVATION</type_of_event>
+    <activation_task ref="id_4">
+    </activation_task>
+   </time_unit_event>
+   <time_unit>2 </time_unit>
+   <time_unit_event>
+    <type_of_event>TASK_ACTIVATION</type_of_event>
+    <activation_task ref="id_5">
+    </activation_task>
+   </time_unit_event>
+   <time_unit>0 </time_unit>
+   <time_unit_event>
+    <type_of_event>START_OF_TASK_CAPACITY</type_of_event>
+    <start_task ref="id_4">
+    </start_task>
+   </time_unit_event>
+   <time_unit>0 </time_unit>
+   <time_unit_event>
+    <type_of_event>RUNNING_TASK</type_of_event>
+    <running_core>core1</running_core>
+    <running_task ref="id_4">
+    </running_task>
+    <current_priority>89</current_priority>
+   </time_unit_event>
+   <time_unit>1 </time_unit>
+   <time_unit_event>
+    <type_of_event>ALLOCATE_RESOURCE</type_of_event>
+    <allocate_task ref="id_4">
+    </allocate_task>
+    <allocate_resource ref="id_26">
+    </allocate_resource>
+   </time_unit_event>
+   <time_unit>1 </time_unit>
+   <time_unit_event>
+    <type_of_event>RUNNING_TASK</type_of_event>
+    <running_core>core1</running_core>
+    <running_task ref="id_4">
+    </running_task>
+    <current_priority>89</current_priority>
+   </time_unit_event>
+   <time_unit>2 </time_unit>
+   <time_unit_event>
+    <type_of_event>START_OF_TASK_CAPACITY</type_of_event>
+    <start_task ref="id_5">
+    </start_task>
+   </time_unit_event>
+   <time_unit>2 </time_unit>
+   <time_unit_event>
+    <type_of_event>RUNNING_TASK</type_of_event>
+    <running_core>core1</running_core>
+    <running_task ref="id_5">
+    </running_task>
+    <current_priority>90</current_priority>
+   </time_unit_event>
+   <time_unit>3 </time_unit>
+   <time_unit_event>
+    <type_of_event>ALLOCATE_RESOURCE</type_of_event>
+    <allocate_task ref="id_5">
+    </allocate_task>
+    <allocate_resource ref="id_27">
+    </allocate_resource>
+   </time_unit_event>
+   <time_unit>3 </time_unit>
+   <time_unit_event>
+    <type_of_event>RUNNING_TASK</type_of_event>
+    <running_core>core1</running_core>
+    <running_task ref="id_5">
+    </running_task>
+    <current_priority>90</current_priority>
+   </time_unit_event>
+   <time_unit>4 </time_unit>
+   <time_unit_event>
+    <type_of_event>RUNNING_TASK</type_of_event>
+    <running_core>core1</running_core>
+    <running_task ref="id_5">
+    </running_task>
+    <current_priority>90</current_priority>
+   </time_unit_event>
+   <time_unit>5 </time_unit>
+   <time_unit_event>
+    <type_of_event>RUNNING_TASK</type_of_event>
+    <running_core>core1</running_core>
+    <running_task ref="id_5">
+    </running_task>
+    <current_priority>90</current_priority>
+   </time_unit_event>
+   <time_unit>6 </time_unit>
+   <time_unit_event>
+    <type_of_event>RUNNING_TASK</type_of_event>
+    <running_core>core1</running_core>
+    <running_task ref="id_5">
+    </running_task>
+    <current_priority>90</current_priority>
+   </time_unit_event>
+   <time_unit>7 </time_unit>
+   <time_unit_event>
+    <type_of_event>WAIT_FOR_RESOURCE</type_of_event>
+    <wait_for_resource_task ref="id_5">
+    </wait_for_resource_task>
+    <wait_for_resource ref="id_26">
+    </wait_for_resource>
+   </time_unit_event>
+   <time_unit>7 </time_unit>
+   <time_unit_event>
+    <type_of_event>RUNNING_TASK</type_of_event>
+    <running_core>core1</running_core>
+    <running_task ref="id_4">
+    </running_task>
+    <current_priority>90</current_priority>
+   </time_unit_event>
+   <time_unit>8 </time_unit>
+   <time_unit_event>
+    <type_of_event>WAIT_FOR_RESOURCE</type_of_event>
+    <wait_for_resource_task ref="id_4">
+    </wait_for_resource_task>
+    <wait_for_resource ref="id_27">
+    </wait_for_resource>
+   </time_unit_event>
+   <time_unit>8 </time_unit>
+   <time_unit_event>
+    <type_of_event>WAIT_FOR_RESOURCE</type_of_event>
+    <wait_for_resource_task ref="id_5">
+    </wait_for_resource_task>
+    <wait_for_resource ref="id_26">
+    </wait_for_resource>
+   </time_unit_event>
+   <time_unit>9 </time_unit>
+   <time_unit_event>
+    <type_of_event>WAIT_FOR_RESOURCE</type_of_event>
+    <wait_for_resource_task ref="id_4">
+    </wait_for_resource_task>
+    <wait_for_resource ref="id_27">
+    </wait_for_resource>
+   </time_unit_event>
+   <time_unit>9 </time_unit>
+   <time_unit_event>
+    <type_of_event>WAIT_FOR_RESOURCE</type_of_event>
+    <wait_for_resource_task ref="id_5">
+    </wait_for_resource_task>
+    <wait_for_resource ref="id_26">
+    </wait_for_resource>
+   </time_unit_event>
+   <time_unit>10</time_unit>
+   <time_unit_event>
+    <type_of_event>WAIT_FOR_RESOURCE</type_of_event>
+    <wait_for_resource_task ref="id_4">
+    </wait_for_resource_task>
+    <wait_for_resource ref="id_27">
+    </wait_for_resource>
+   </time_unit_event>
+   <time_unit>10</time_unit>
+   <time_unit_event>
+    <type_of_event>WAIT_FOR_RESOURCE</type_of_event>
+    <wait_for_resource_task ref="id_5">
+    </wait_for_resource_task>
+    <wait_for_resource ref="id_26">
+    </wait_for_resource>
+   </time_unit_event>
+   <time_unit>11</time_unit>
+   <time_unit_event>
+    <type_of_event>WAIT_FOR_RESOURCE</type_of_event>
+    <wait_for_resource_task ref="id_4">
+    </wait_for_resource_task>
+    <wait_for_resource ref="id_27">
+    </wait_for_resource>
+   </time_unit_event>
+   <time_unit>11</time_unit>
+   <time_unit_event>
+    <type_of_event>WAIT_FOR_RESOURCE</type_of_event>
+    <wait_for_resource_task ref="id_5">
+    </wait_for_resource_task>
+    <wait_for_resource ref="id_26">
+    </wait_for_resource>
+   </time_unit_event>
+   <time_unit>12</time_unit>
+   <time_unit_event>
+    <type_of_event>WAIT_FOR_RESOURCE</type_of_event>
+    <wait_for_resource_task ref="id_4">
+    </wait_for_resource_task>
+    <wait_for_resource ref="id_27">
+    </wait_for_resource>
+   </time_unit_event>
+   <time_unit>12</time_unit>
+   <time_unit_event>
+    <type_of_event>WAIT_FOR_RESOURCE</type_of_event>
+    <wait_for_resource_task ref="id_5">
+    </wait_for_resource_task>
+    <wait_for_resource ref="id_26">
+    </wait_for_resource>
+   </time_unit_event>
+   <time_unit>13</time_unit>
+   <time_unit_event>
+    <type_of_event>WAIT_FOR_RESOURCE</type_of_event>
+    <wait_for_resource_task ref="id_4">
+    </wait_for_resource_task>
+    <wait_for_resource ref="id_27">
+    </wait_for_resource>
+   </time_unit_event>
+   <time_unit>13</time_unit>
+   <time_unit_event>
+    <type_of_event>WAIT_FOR_RESOURCE</type_of_event>
+    <wait_for_resource_task ref="id_5">
+    </wait_for_resource_task>
+    <wait_for_resource ref="id_26">
+    </wait_for_resource>
+   </time_unit_event>
+   <time_unit>14</time_unit>
+   <time_unit_event>
+    <type_of_event>WAIT_FOR_RESOURCE</type_of_event>
+    <wait_for_resource_task ref="id_4">
+    </wait_for_resource_task>
+    <wait_for_resource ref="id_27">
+    </wait_for_resource>
+   </time_unit_event>
+   <time_unit>14</time_unit>
+   <time_unit_event>
+    <type_of_event>WAIT_FOR_RESOURCE</type_of_event>
+    <wait_for_resource_task ref="id_5">
+    </wait_for_resource_task>
+    <wait_for_resource ref="id_26">
+    </wait_for_resource>
+   </time_unit_event>
+   <time_unit>15</time_unit>
+   <time_unit_event>
+    <type_of_event>WAIT_FOR_RESOURCE</type_of_event>
+    <wait_for_resource_task ref="id_4">
+    </wait_for_resource_task>
+    <wait_for_resource ref="id_27">
+    </wait_for_resource>
+   </time_unit_event>
+   <time_unit>15</time_unit>
+   <time_unit_event>
+    <type_of_event>WAIT_FOR_RESOURCE</type_of_event>
+    <wait_for_resource_task ref="id_5">
+    </wait_for_resource_task>
+    <wait_for_resource ref="id_26">
+    </wait_for_resource>
+   </time_unit_event>
+   <time_unit>16</time_unit>
+   <time_unit_event>
+    <type_of_event>WAIT_FOR_RESOURCE</type_of_event>
+    <wait_for_resource_task ref="id_4">
+    </wait_for_resource_task>
+    <wait_for_resource ref="id_27">
+    </wait_for_resource>
+   </time_unit_event>
+   <time_unit>16</time_unit>
+   <time_unit_event>
+    <type_of_event>WAIT_FOR_RESOURCE</type_of_event>
+    <wait_for_resource_task ref="id_5">
+    </wait_for_resource_task>
+    <wait_for_resource ref="id_26">
+    </wait_for_resource>
+   </time_unit_event>
+   <time_unit>17</time_unit>
+   <time_unit_event>
+    <type_of_event>WAIT_FOR_RESOURCE</type_of_event>
+    <wait_for_resource_task ref="id_4">
+    </wait_for_resource_task>
+    <wait_for_resource ref="id_27">
+    </wait_for_resource>
+   </time_unit_event>
+   <time_unit>17</time_unit>
+   <time_unit_event>
+    <type_of_event>WAIT_FOR_RESOURCE</type_of_event>
+    <wait_for_resource_task ref="id_5">
+    </wait_for_resource_task>
+    <wait_for_resource ref="id_26">
+    </wait_for_resource>
+   </time_unit_event>
+   <time_unit>18</time_unit>
+   <time_unit_event>
+    <type_of_event>WAIT_FOR_RESOURCE</type_of_event>
+    <wait_for_resource_task ref="id_4">
+    </wait_for_resource_task>
+    <wait_for_resource ref="id_27">
+    </wait_for_resource>
+   </time_unit_event>
+   <time_unit>18</time_unit>
+   <time_unit_event>
+    <type_of_event>WAIT_FOR_RESOURCE</type_of_event>
+    <wait_for_resource_task ref="id_5">
+    </wait_for_resource_task>
+    <wait_for_resource ref="id_26">
+    </wait_for_resource>
+   </time_unit_event>
+   <time_unit>19</time_unit>
+   <time_unit_event>
+    <type_of_event>WAIT_FOR_RESOURCE</type_of_event>
+    <wait_for_resource_task ref="id_4">
+    </wait_for_resource_task>
+    <wait_for_resource ref="id_27">
+    </wait_for_resource>
+   </time_unit_event>
+   <time_unit>19</time_unit>
+   <time_unit_event>
+    <type_of_event>WAIT_FOR_RESOURCE</type_of_event>
+    <wait_for_resource_task ref="id_5">
+    </wait_for_resource_task>
+    <wait_for_resource ref="id_26">
+    </wait_for_resource>
+   </time_unit_event>
+   <time_unit>20</time_unit>
+   <time_unit_event>
+    <type_of_event>WAIT_FOR_RESOURCE</type_of_event>
+    <wait_for_resource_task ref="id_4">
+    </wait_for_resource_task>
+    <wait_for_resource ref="id_27">
+    </wait_for_resource>
+   </time_unit_event>
+   <time_unit>20</time_unit>
+   <time_unit_event>
+    <type_of_event>WAIT_FOR_RESOURCE</type_of_event>
+    <wait_for_resource_task ref="id_5">
+    </wait_for_resource_task>
+    <wait_for_resource ref="id_26">
+    </wait_for_resource>
+   </time_unit_event>
+   <time_unit>21</time_unit>
+   <time_unit_event>
+    <type_of_event>WAIT_FOR_RESOURCE</type_of_event>
+    <wait_for_resource_task ref="id_4">
+    </wait_for_resource_task>
+    <wait_for_resource ref="id_27">
+    </wait_for_resource>
+   </time_unit_event>
+   <time_unit>21</time_unit>
+   <time_unit_event>
+    <type_of_event>WAIT_FOR_RESOURCE</type_of_event>
+    <wait_for_resource_task ref="id_5">
+    </wait_for_resource_task>
+    <wait_for_resource ref="id_26">
+    </wait_for_resource>
+   </time_unit_event>
+   <time_unit>22</time_unit>
+   <time_unit_event>
+    <type_of_event>WAIT_FOR_RESOURCE</type_of_event>
+    <wait_for_resource_task ref="id_4">
+    </wait_for_resource_task>
+    <wait_for_resource ref="id_27">
+    </wait_for_resource>
+   </time_unit_event>
+   <time_unit>22</time_unit>
+   <time_unit_event>
+    <type_of_event>WAIT_FOR_RESOURCE</type_of_event>
+    <wait_for_resource_task ref="id_5">
+    </wait_for_resource_task>
+    <wait_for_resource ref="id_26">
+    </wait_for_resource>
+   </time_unit_event>
+   <time_unit>23</time_unit>
+   <time_unit_event>
+    <type_of_event>WAIT_FOR_RESOURCE</type_of_event>
+    <wait_for_resource_task ref="id_4">
+    </wait_for_resource_task>
+    <wait_for_resource ref="id_27">
+    </wait_for_resource>
+   </time_unit_event>
+   <time_unit>23</time_unit>
+   <time_unit_event>
+    <type_of_event>WAIT_FOR_RESOURCE</type_of_event>
+    <wait_for_resource_task ref="id_5">
+    </wait_for_resource_task>
+    <wait_for_resource ref="id_26">
+    </wait_for_resource>
+   </time_unit_event>
+   <time_unit>24</time_unit>
+   <time_unit_event>
+    <type_of_event>WAIT_FOR_RESOURCE</type_of_event>
+    <wait_for_resource_task ref="id_4">
+    </wait_for_resource_task>
+    <wait_for_resource ref="id_27">
+    </wait_for_resource>
+   </time_unit_event>
+   <time_unit>24</time_unit>
+   <time_unit_event>
+    <type_of_event>WAIT_FOR_RESOURCE</type_of_event>
+    <wait_for_resource_task ref="id_5">
+    </wait_for_resource_task>
+    <wait_for_resource ref="id_26">
+    </wait_for_resource>
+   </time_unit_event>
+   <time_unit>25</time_unit>
+   <time_unit_event>
+    <type_of_event>WAIT_FOR_RESOURCE</type_of_event>
+    <wait_for_resource_task ref="id_4">
+    </wait_for_resource_task>
+    <wait_for_resource ref="id_27">
+    </wait_for_resource>
+   </time_unit_event>
+   <time_unit>25</time_unit>
+   <time_unit_event>
+    <type_of_event>WAIT_FOR_RESOURCE</type_of_event>
+    <wait_for_resource_task ref="id_5">
+    </wait_for_resource_task>
+    <wait_for_resource ref="id_26">
+    </wait_for_resource>
+   </time_unit_event>
+   <time_unit>26</time_unit>
+   <time_unit_event>
+    <type_of_event>WAIT_FOR_RESOURCE</type_of_event>
+    <wait_for_resource_task ref="id_4">
+    </wait_for_resource_task>
+    <wait_for_resource ref="id_27">
+    </wait_for_resource>
+   </time_unit_event>
+   <time_unit>26</time_unit>
+   <time_unit_event>
+    <type_of_event>WAIT_FOR_RESOURCE</type_of_event>
+    <wait_for_resource_task ref="id_5">
+    </wait_for_resource_task>
+    <wait_for_resource ref="id_26">
+    </wait_for_resource>
+   </time_unit_event>
+   <time_unit>27</time_unit>
+   <time_unit_event>
+    <type_of_event>WAIT_FOR_RESOURCE</type_of_event>
+    <wait_for_resource_task ref="id_4">
+    </wait_for_resource_task>
+    <wait_for_resource ref="id_27">
+    </wait_for_resource>
+   </time_unit_event>
+   <time_unit>27</time_unit>
+   <time_unit_event>
+    <type_of_event>WAIT_FOR_RESOURCE</type_of_event>
+    <wait_for_resource_task ref="id_5">
+    </wait_for_resource_task>
+    <wait_for_resource ref="id_26">
+    </wait_for_resource>
+   </time_unit_event>
+   <time_unit>28</time_unit>
+   <time_unit_event>
+    <type_of_event>WAIT_FOR_RESOURCE</type_of_event>
+    <wait_for_resource_task ref="id_4">
+    </wait_for_resource_task>
+    <wait_for_resource ref="id_27">
+    </wait_for_resource>
+   </time_unit_event>
+   <time_unit>28</time_unit>
+   <time_unit_event>
+    <type_of_event>WAIT_FOR_RESOURCE</type_of_event>
+    <wait_for_resource_task ref="id_5">
+    </wait_for_resource_task>
+    <wait_for_resource ref="id_26">
+    </wait_for_resource>
+   </time_unit_event>
+   <time_unit>29</time_unit>
+   <time_unit_event>
+    <type_of_event>WAIT_FOR_RESOURCE</type_of_event>
+    <wait_for_resource_task ref="id_4">
+    </wait_for_resource_task>
+    <wait_for_resource ref="id_27">
+    </wait_for_resource>
+   </time_unit_event>
+   <time_unit>29</time_unit>
+   <time_unit_event>
+    <type_of_event>WAIT_FOR_RESOURCE</type_of_event>
+    <wait_for_resource_task ref="id_5">
+    </wait_for_resource_task>
+    <wait_for_resource ref="id_26">
+    </wait_for_resource>
+   </time_unit_event>
+  </result>
+ </scheduling_result>
+</event_table>
+
